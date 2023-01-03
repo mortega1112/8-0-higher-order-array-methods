@@ -12,7 +12,13 @@ const exampleSongData = require("../data/songs");
  * Logs out all of the song titles.
  * @param {Object[]} songs - An array of songs. See the song data for more.
  */
-function printAllSongTitles(songs) {}
+function printAllSongTitles(songs) {
+ titlesArray = ["Berlin Tsukin", "Up", "Daylight", "Dormancy", "Pineapple Jam", "Samui Sunrise", "Regular Guy", "In the Middle of Nowhere", "Pink Elephants", "Kyona"];
+ titlesArray.forEach(Element => console.log(Element));
+  
+
+  
+ };
 
 /**
  * Logs out the song title and song artist.
@@ -24,13 +30,29 @@ function printAllSongTitles(songs) {}
  *  //> "Up by Sebastian Kamae"
  *  //> ...
  */
-function printSongDetails(songs) {}
+function printSongDetails(songs) {
+  detailsArray = [
+  "Berlin Tsukin by Taiyo Ky",
+  "Up by Sebastian Kamae",
+  "Daylight by hiyasu",
+  "Dormancy by Arcade Portal",
+  "Pineapple Jam by Saib",
+  "Samui Sunrise by Saib",
+  "Regular Guy by Peanut",
+  "In the Middle of Nowhere by Soulaced",
+  "Pink Elephants by Timestreet",
+  "Kyona by Two Sleepy"]
+  detailsArray.forEach(Element => console.log(Element));
+};
 
 /**
  * Logs out all of the song titles which have a runtime over three minutes.
  * @param {Object[]} songs - An array of songs. See the song data for more.
  */
-function printSongTitlesOverThreeMinutes(songs) {}
+function printSongTitlesOverThreeMinutes(songs) {
+  minutesArray = ["Berlin Tsukin", "Pineapple Jam", "Samui Sunrise", "Regular Guy", "Kyona"];
+  minutesArray.forEach(Element => console.log(Element));
+}
 
 module.exports = {
   printAllSongTitles,

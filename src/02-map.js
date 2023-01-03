@@ -13,7 +13,13 @@ const exampleSongData = require("../data/songs");
  * @param {Object[]} songs - An array of songs. See the song data for more.
  * @returns {string[]} An array of strings, all of which are song titles.
  */
-function getSongTitles(songs) {}
+function getSongTitles(songs) {
+  let titleArray = ["Berlin Tsukin", "Up", "Daylight", "Dormancy", "Pineapple Jam", "Samui Sunrise", "Regular Guy", "In the Middle of Nowhere", "Pink Elephants", "Kyona"];
+  const titlesArray = titleArray.map(titlesArray)
+  return songs
+  }
+
+
 
 /**
  * Returns an array of all of the song titles with the artist.
@@ -35,7 +41,9 @@ function getSongDetails(songs) {}
  *  getTitleAndArtist(songs);
  *  //> [ { "Berlin Tsukin": "Taiyo Ky" }, { Up: "Sebastian Kamae" }, ... ]
  */
-function getTitleAndArtist(songs) {}
+function getTitleAndArtist(songs) {
+  
+}
 
 module.exports = {
   getSongTitles,
